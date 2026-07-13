@@ -11,8 +11,9 @@ cask "jotter" do
   desc "A fast, minimal notepad with an autosaved drafts store"
   homepage "https://github.com/byurhannurula/jotter"
 
-  # The app is not code-signed / notarized; first launch needs a Gatekeeper
-  # bypass. Enable `auto_updates true` only once the in-app Tauri updater ships.
+  # Jotter self-updates via the Tauri updater, so Homebrew defers version
+  # management to the app. (Not notarized — first launch needs a Gatekeeper bypass.)
+  auto_updates true
 
   app "Jotter.app"
 
