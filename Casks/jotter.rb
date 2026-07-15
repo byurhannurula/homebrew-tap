@@ -3,8 +3,8 @@ cask "jotter" do
   # the byurhannurula/jotter repo on each published release. The values below are
   # placeholders until the first release runs — installing before then will fail
   # the checksum check, which is expected.
-  version "0.3.0"
-  sha256 "ad99543247beb0651d2f18bff0a8fdeb66c435c79d19447805413e7a57dd0e6a"
+  version "0.3.1"
+  sha256 "6c4476d7480f0f438e7705ba8169786d76e50bdf3f50be6aff1c84b5e0cca22d"
 
   url "https://github.com/byurhannurula/jotter/releases/download/v#{version}/Jotter_#{version}_universal.dmg"
   name "Jotter"
